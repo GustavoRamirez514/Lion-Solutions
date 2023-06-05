@@ -130,7 +130,7 @@ function Footer() {
             <div className="pl-24">
               <img
                 className=""
-                src={logo}
+                src="https://i.ibb.co/BNKMsn3/imageonline-co-transparentimage.png"
                 width={160}
                 height={160}
                 alt="Company name"

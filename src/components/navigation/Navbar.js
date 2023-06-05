@@ -51,7 +51,8 @@ function Navbar() {
       <div className="px-4 sm:px-6">
         <div className="-ml-4 -mt-2 hidden lg:flex flex-wrap items-center justify-between sm:flex-nowrap md:px-12 px-2">
           <Link to="/" className="pl-12">
-            <img src={logo} width={120} height={120} className="" />
+            {/* <img src={logo} width={120} height={120} className="" /> */}
+            <img src="https://i.ibb.co/BNKMsn3/imageonline-co-transparentimage.png" width={120} height={120} className="" />
           </Link>
           <div className="ml-4 mt-2 flex-shrink-0">
             <NavLink
@@ -108,7 +109,7 @@ function Navbar() {
         {/* MOVIL */}
         <div className="-ml-4 -mt-2 lg:hidden flex flex-wrap items-center justify-between sm:flex-nowrap md:px-12 px-2">
           <Link to="/" className="pl-12">
-            <img src={logo} width={120} height={120} className="" />
+          <img src="https://i.ibb.co/BNKMsn3/imageonline-co-transparentimage.png" width={120} height={120} className="" />
           </Link>
           <div className="ml-4 mt-2 flex-shrink-0">
             <Popover className="relative">
