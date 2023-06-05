@@ -1,0 +1,26 @@
+# Ignorar archivos y directorios específicos de Django
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+media/
+
+# Ignorar archivos de configuración de Django
+*.db
+local_settings.py
+
+# Ignorar archivos y directorios específicos de React
+node_modules/
+build/
+
+# Ignorar archivos de entorno y configuración de desarrollo
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Ignorar archivos y directorios de control de versiones
+.git/
+.gitignore
