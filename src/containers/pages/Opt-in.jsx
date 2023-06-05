@@ -146,7 +146,6 @@ function OptIn(){
             </div>
 
             </div>
-            <Footer/>
         </Layout>
 
     )
