@@ -17,7 +17,7 @@ function Casos() {
       <title>Lion Solutions | Estudios</title>
     </Helmet>
     <Navbar/>
-    <div className="pt-20">
+    <div className="pe:pt-32 pt-20">
     <Header/>
     <List/>
     </div>

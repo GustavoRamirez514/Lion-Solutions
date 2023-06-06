@@ -62,7 +62,7 @@ function Servicios() {
       <title>Lion Solutions | Servicios</title>
     </Helmet>
       <Navbar />
-      <div className="pt-20">
+      <div className="pe:pt-32 pt-20">
         <Header />
         <List posts={software} data={"Desarrollo de Software, Productos y Diseños"} />
       </div>

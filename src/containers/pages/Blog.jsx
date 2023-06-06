@@ -31,7 +31,7 @@ function Blog({
         <title>Lion Solutions | Blog</title>
       </Helmet>
       <Navbar />
-      <div className="pt-20">
+      <div className="pe:pt-32 pt-20">
         <Header categories={categories && categories} />
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-6xl my-10">

@@ -61,7 +61,7 @@ function OptIn(){
     return(
         <Layout>
             <Navbar/>
-            <div className="pt-20">
+            <div className="pe:pt-32 pt-20">
             <div className="bg-white pb-8 sm:pb-12 lg:pb-20 lg:pl-40">
             <div className="overflow-hidden lg:relative">
                 <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-24 lg:px-8">

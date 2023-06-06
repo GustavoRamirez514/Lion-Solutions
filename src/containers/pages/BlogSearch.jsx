@@ -26,7 +26,7 @@ function Search({ posts, count, next, previous, search_blog, search_blog_page}) 
         <title>Lion Solutions | Blog</title>
       </Helmet>
       <Navbar />
-      <div className="pt-28">
+      <div className="pe:pt-32 pt-28">
       <div className="mx-auto max-w-6xl my-10">
             <List
               posts={posts}

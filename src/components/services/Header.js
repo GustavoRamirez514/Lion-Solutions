@@ -7,7 +7,7 @@ function Header() {
           <div>
             <div>
               <h1 className="text-5xl font-semibold tracking-tight sm:text-5xl">
-                Servicios de Desarrollo de Software
+                Servicios de Lion Solutions
               </h1>
               <p className="mt-6  leading-6 text-gray-600 text-left max-w-xl" >
                 Nos encanta cambiar los patrones de pensamiento establecidos y 

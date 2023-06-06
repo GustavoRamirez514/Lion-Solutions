@@ -17,7 +17,7 @@ function Nosotros() {
       <title>Lion Solutions | Nosotros</title>
     </Helmet>
     <Navbar/>
-    <div className="pt-20">
+    <div className="pe:pt-32 pt-20">
     <Header/>
     <Team/>
     </div>

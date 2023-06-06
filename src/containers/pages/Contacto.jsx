@@ -87,7 +87,7 @@ function Contacto() {
         <title>Lion Solutions | Contacto</title>
       </Helmet>
       <Navbar />
-      <div className="pt-20">
+      <div className="pe:pt-32 pt-20">
         <div className="relative bg-white">
           <div className="absolute inset-0">
             <div className="absolute inset-y-0 left-0 w-1/2 bg-white" />

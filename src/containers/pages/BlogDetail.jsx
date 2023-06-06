@@ -21,7 +21,7 @@ function BlogDetail({ get_blog, post }) {
     <Layout>
       <Navbar />
       {post && post.slug === slug ? (
-        <div className="pt-20">
+        <div className="pe:pt-32 pt-20">
           <div className="relative ">
             <div className="absolute inset-0">
               <img

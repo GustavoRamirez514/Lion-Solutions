@@ -21,7 +21,7 @@ function Carrera() {
       <title>Lion Solutions | Vacantes</title>
     </Helmet>
     <Navbar/>
-    <div className="pt-20">
+    <div className="pe:pt-32 pt-20">
     <Header/>
     <Testimonial/>
     <Culture/>
