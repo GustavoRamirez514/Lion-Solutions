@@ -290,6 +290,12 @@ if not DEBUG:    # Tell Django to copy statics to the `staticfiles` directory
     # Turn on WhiteNoise storage backend that takes care of compressing static files
     # and creating unique names for each version so they can safely be cached forever.
     STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+    ALLOWED_HOSTS=env.list('ALLOWED_HOSTS_DEPLOY')
+    CORS_ORIGIN_WHITELIST = env.list('CORS_ORIGIN_WHITELIST_DEPLOY')
+    CSRF_TRUSTED_ORIGINS = env.list('CSRF_TRUSTED_ORIGINS_DEPLOY')
+    ALLOWED_HOSTS=os.environ.get('ALLOWED_HOSTS_DEPLOY', '').split(',')
+    CORS_ORIGIN_WHITELIST = os.environ.get('CORS_ORIGIN_WHITELIST_DEPLOY', '').split(',')
+    CSRF_TRUSTED_ORIGINS = os.environ.get('CSRF_TRUSTED_ORIGINS_DEPLOY', '').split(',')
 
 # if not DEBUG:
     # ALLOWED_HOSTS=env.list('ALLOWED_HOSTS_DEPLOY')
